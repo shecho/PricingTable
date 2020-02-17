@@ -15,17 +15,17 @@ body{
   max-width: 1000px;
   width: 50%;
   margin: auto;
-  padding: 40px;
+
   display: flex;
   flex-wrap: wrap;
-
+  border-radius: 20px;
 }
 
 .pricing-table{
   background: #f1f1f1;
   flex: 1;
   margin: 10px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .pricing-header{
@@ -90,48 +90,37 @@ body{
 }
 .pricing-table a:hover{
   border-radius: 30px;
-}
+  transition: ease 900ms;
+  transform: scale(1.4);
+  }
 .table1 .pricing-header{
-  background: #2980b9;
-}
-.table2 .pricing-header{
   background: #2c3e50;
-}
-.table3 .pricing-header{
-  background: #c0392b;
 }
 
 .table1 .title{
-  background-image: linear-gradient(125deg,#3498db,#9b59b6);
-}
-.table2 .title{
   background-image: linear-gradient(125deg,#34495e,#95a5a6);
 }
-.table3 .title{
-  background-image: linear-gradient(125deg,#e74c3c,#f39c12);
-}
+
 
 .table1 a{
-  color: #2980b9;
-}
-.table2 a{
   color: #2c3e50;
 }
-.table3 a{
-  color: #c0392b;
-}
+
 
 .table1 a:hover{
-  background: #2980b9;
-  color: #fff;
-}
-.table2 a:hover{
   background: #2c3e50;
   color: #fff;
 }
-.table3 a:hover{
-  background: #c0392b;
-  color: #fff;
+
+/* icono */
+.profile-photo{
+  padding: 5px;
+
+}
+.profile-photo-container{
+  height: 100%;
+  width: 100%;
+
 }
 
 @media screen and (max-width:780px) {

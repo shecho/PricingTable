@@ -13,10 +13,12 @@ body{
 
 .container{
   max-width: 1000px;
+  width: 50%;
   margin: auto;
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .pricing-table{
